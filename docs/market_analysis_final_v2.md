@@ -1,7 +1,7 @@
 # Market analysis: підвіс БПЛА (2 осі Pitch/Roll) під мультиспектральну камеру
 
 ## 1. Об’єкт
-2-осьовий підвіс (Pitch/Roll) для стабілізації **MicaSense RedEdge‑P** на БПЛА. Керування від польотного контролера по **UART/RC**, окремий канал **Trigger/Sync** для камери. Живлення — від АКБ БПЛА через DC‑DC/UBEC.
+2-осьовий підвіс (Pitch/Roll) для стабілізації **MicaSense RedEdge-P** на БПЛА. Керування від польотного контролера по **UART/RC**, окремий канал **Trigger/Sync** для камери. Живлення — від АКБ БПЛА через DC-DC/UBEC.
 
 ## 2. Ринок і логіка порівняння
 На ринку є три практичні класи рішень:
@@ -19,8 +19,8 @@
 | 3 | Tarot **T-2D 2-Axis Brushless Gimbal** | 2 | Легкі камери в межах допуску моделі | RC/PWM (залежить від комплекту) | Типово 12–25 В (залежить від комплекту) | Доступність, проста 2-осьова архітектура | Обмеження по точності/інтеграції, не спеціалізований під мультиспектр | https://www.bhphotovideo.com/c/product/1098165-REG/3d_robotics_3dr0654_tarot_t_2d_2_axis_brushless.html |
 
 ## Джерела (ключові)
-- MicaSense RedEdge‑P Integration Guide: https://support.micasense.com/hc/en-us/articles/4410824602903-RedEdge-P-Integration-Guide
-- iPower GM5208‑12: https://iflight-rc.eu/en/products/ipower-gm5208-12-gimbal-motor
+- MicaSense RedEdge-P Integration Guide: https://support.micasense.com/hc/en-us/articles/4410824602903-RedEdge-P-Integration-Guide
+- iPower GM5208-12: https://iflight-rc.eu/en/products/ipower-gm5208-12-gimbal-motor
 - BaseCam / SimpleBGC: https://www.basecamelectronics.com/pro/
 - STorM32 BGC wiki: https://www.olliw.eu/storm32bgc-wiki/Main_Page
 - Matek U4A2P (UBEC Duo): https://www.mateksys.com/?portfolio=u4a2p
