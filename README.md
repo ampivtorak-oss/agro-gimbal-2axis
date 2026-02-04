@@ -72,16 +72,7 @@
 
 ---
 
-## 7. Креслення/ескіз (AutoCAD)
-Креслення виконані в **AutoCAD** та розміщені у папці `cad/`. Для перевірки додані експорти у `cad/export/` (PDF/DXF).
-
-- Основна компоновка: `cad/01_layout_assembly.dwg`  
-- Деталі: `cad/02_frame_roll.dwg`, `cad/03_frame_pitch.dwg`, `cad/04_camera_plate.dwg`, `cad/05_mount_base.dwg`  
-- Експорт: `cad/export/assembly.pdf`, `cad/export/assembly.dxf`
-
----
-
-## 8. Доцільність розробки моделі
+## 7. Доцільність розробки моделі
 Розробка є доцільною, оскільки забезпечує:
 1) сумісність із конкретною мультиспектральною камерою та можливість інтеграції нестандартних сенсорів;  
 2) оптимізацію маси/габаритів під конкретний коптер і політний профіль;  
@@ -91,7 +82,7 @@
 
 ---
 
-## 9. Джерела
+## 8. Джерела
 1) DJI Mavic 3 Multispectral Specs — https://ag.dji.com/mavic-3-m/specs  
 2) Sentera 6X Multispectral Spec Sheet — https://info.sentera.com/hubfs/Spec%20Sheets%20for%20Sentera%20Sensors/6X%20Multispectral%20Spec%20Sheet.pdf  
 3) MicaSense RedEdge‑P Integration Guide — https://support.micasense.com/hc/en-us/articles/4410824602903-RedEdge-P-Integration-Guide  
@@ -101,7 +92,7 @@
 
 ---
 
-## 10. Структура репозиторію
+## 9. Структура репозиторію
 - `README.md` — опис аванпроєкту, аналіз ринку, очікувані ТТХ, посилання  
 - `docs/BOM.md` — перелік комплектуючих (BOM)  
 - `docs/market_analysis.md` — розширений аналіз ринку  
